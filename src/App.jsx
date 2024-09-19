@@ -29,7 +29,7 @@ function App() {
     
       <BrowserRouter>
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
           <Routes>
             <Route
               path="/"
