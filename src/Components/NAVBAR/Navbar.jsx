@@ -1,5 +1,5 @@
-// import React from "react";
-import { BiSolidSun} from "react-icons/bi";
+import React from "react";
+// import { BiSolidSun} from "react-icons/bi";
 const Navbar = () => {
   const NavLinks = [
     {
