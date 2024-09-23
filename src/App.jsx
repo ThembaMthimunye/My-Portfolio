@@ -1,18 +1,18 @@
-import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
-import Skills from "./Components/Skills/Skills";
-import Project from "./Components/Project/Project";
-import Testimonial from "./Components/Testimonial/Testimonial";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
-import ContactPage from "./Components/ContactPage/ContactPage";
-
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-
 import { useEffect } from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+// Import Components
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Skills from "./Components/Skills";
+import Project from "./Components/Project";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import ContactPage from "./Components/ContactPage";
+
 
 function App() {
   useEffect(() => {
@@ -26,44 +26,28 @@ function App() {
   }, []);
 
   return (
-    <>
-      <BrowserRouter>
-          <Navbar />
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <section id="hero">
-                    <Hero />
-                  </section>
-                  <section id="about">
-                    <About />
-                  </section>
-
-                  <section id="skills">
-                    <Skills />
-                  </section>
-
-                  <section id="projects">
-                    <Project />
-                  </section>
-
-                  <section>
-                    <Contact/>
-                  </section>
-                  <footer>
-                    <Footer />
-                  </footer>
-                </>
-              }
-            />
-
-            <Route path="/Contact" element={<ContactPage />} />
-          </Routes>
-        
-      </BrowserRouter>
-      </>
+    <BrowserRouter>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <section id="hero"><Hero /></section>
+                <section id="about"><About /></section>
+                <section id="skills"><Skills /></section>
+                <section id="projects"><Project /></section>
+                <section id="contact"><Contact /></section>
+                <footer><Footer /></footer>
+              </>
+            }
+          />
+          <Route path="/contact" element={<ContactPage />} />
+         
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 }
 

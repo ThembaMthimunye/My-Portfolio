@@ -1,5 +1,5 @@
 import React from "react";
-import heroPic from "../../assets/Pictures/x3.jpg";
+import heroPic from "../assets/Pictures/x3.jpg";
 
 const Hero = () => {
   const handleButtonClick = () => {

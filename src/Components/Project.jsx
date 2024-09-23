@@ -1,7 +1,7 @@
 import React from "react";
-import car1 from "../../assets/Pictures/P-1.png";
-import car2 from "../../assets/Pictures/P-2.png";
-import car3 from "../../assets/Pictures/P-3.png";
+import car1 from "../assets/Pictures/P-1.png";
+import car2 from "../assets/Pictures/P-2.png";
+import car3 from "../assets/Pictures/P-3.png";
 
 const CarListing = [
   {

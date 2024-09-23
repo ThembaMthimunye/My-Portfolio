@@ -3,9 +3,9 @@ import { FaCameraRetro } from "react-icons/fa";
 import { FaShippingFast } from "react-icons/fa";
 import { MdDriveEta } from "react-icons/md";
 import { CiStar } from "react-icons/ci";
-import p1 from "../../assets/Pictures/p1.png"
-import p2 from "../../assets/Pictures/p2.png"
-import p3 from "../../assets/Pictures/p3.png"
+import p1 from "../assets/Pictures/p1.png"
+import p2 from "../assets/Pictures/p2.png"
+import p3 from "../assets/Pictures/p3.png"
 
 
 const skillsData = [

@@ -1,5 +1,5 @@
 import React from "react";
-import carPng from "../../assets/Pictures/x2.jpg";
+import carPng from "../assets/Pictures/x2.jpg";
 
 const About = () => {
   return (
