@@ -26,18 +26,17 @@ function App() {
   }, []);
 
   return (
-    
+    <div>
       <BrowserRouter>
-        <div>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
             <Route
               path="/"
               element={
                 <>
-                  {/* <section id="hero">
+                  <section id="hero">
                     <Hero />
-                  </section> */}
+                  </section>
                   <section id="about">
                     <About />
                   </section>
@@ -62,9 +61,9 @@ function App() {
 
             <Route path="/Contact" element={<ContactPage />} />
           </Routes>
-        </div>
+        
       </BrowserRouter>
-    
+      </div>
   );
 }
 

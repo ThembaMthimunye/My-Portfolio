@@ -9,7 +9,6 @@ const Hero = () => {
 
   return (
     <section id='home'>
-      <div>
         <div className="container min-h-[620px] flex">
           <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
             <div
@@ -47,7 +46,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };
