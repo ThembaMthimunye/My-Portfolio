@@ -1,4 +1,4 @@
-// import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
@@ -29,15 +29,15 @@ function App() {
     
       <BrowserRouter>
         <div>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
             <Route
               path="/"
               element={
                 <>
-                  <section id="hero">
+                  {/* <section id="hero">
                     <Hero />
-                  </section>
+                  </section> */}
                   <section id="about">
                     <About />
                   </section>

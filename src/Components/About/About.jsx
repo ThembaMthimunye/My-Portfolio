@@ -23,8 +23,6 @@ const About = () => {
                 >
                   About Me
                 </h1>
-               
-
                 <p data-aos="fade-up" data-aos-duration="1500">
                   I am Nicolas Themba Mthimunye, a Tshwane University of
                   Technology graduate with a National diploma in Information
@@ -36,8 +34,6 @@ const About = () => {
                   confident in my ability to contribute to your company's growth
                   and success.
                 </p>
-
-            
               </div>
             </div>
           </div>
